@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>Tic Tac Toe</h1>
+    </div>
+    <div class="main-content">
+        <div class="board">
+        </div>
+        <div class="settings">
+            <form>
+                <input type="text" id="username1" name="username" maxlength="18" autocomplete="off" placeholder=" ">
+                <label for="username1">Player 1</label>
+            </form>
+            <button class="restart-button"><img src="./assets/play.png" alt="A play icon"></button>
+            <form>
+                <input type="text" id="username2" name="username" maxlength="18" autocomplete="off" placeholder=" ">
+                <label for="username2">Player 2</label>
+            </form>
+        </div>
+    </div>
+    <div class="modal"></div>
+    <div class="overlay"></div>
+</body>
+</html>
